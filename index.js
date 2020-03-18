@@ -1,6 +1,12 @@
-// Import stylesheets
-import './style.css';
+// Zuerst wird Start ausgegeben, 
+// obwohl oO vorher im Script ist
+let zahl = 5
+setTimeout(()=>{
+  output.innerHTML = 'oO'
+},2000)
 
-// Write Javascript code!
-const appDiv = document.getElementById('app');
-appDiv.innerHTML = `<h1>JS Starter</h1>`;
+var output = document.getElementById('app');
+output.innerHTML = `<h1>Start</h1>`;
+
+//VERSUS ASYNC
+
